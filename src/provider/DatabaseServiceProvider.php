@@ -4,7 +4,7 @@ namespace Src\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
-class DatabseServiceProvider extends ServiceProvider
+class DatabaseServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

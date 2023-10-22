@@ -15,9 +15,7 @@
     ],
     "extra": {
         "laravel": {
-            "providers": [
-                "Src\\DatabaseServiceProvider"
-            ],
+            "Src\\": "src/",
             "migrations": [
                 "myan-map-migrations"
             ]
