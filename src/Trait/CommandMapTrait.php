@@ -45,9 +45,9 @@ trait CommandMapTrait
     {
         $model = get_class($this);
 
-        $model::findOrFail($id);
+        $modelValue = $model::findOrFail($id);
 
-        $newValue ? $model::update([['name' => $newValue]]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
+        $newValue ? $modelValue->update([['name' => $newValue]]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
 
         $this->updateValidationAndSave($model, $subValue);
     }
@@ -79,9 +79,9 @@ trait CommandMapTrait
     {
         $model = get_class($this);
 
-        $model::findOrFail($id);
+        $modelValue = $model::findOrFail($id);
 
-        $model->delete();
+        $modelValue->delete();
     }
 
     public function areAllIntegers($array)
