@@ -1,6 +1,6 @@
 <?php
 
-namespace ThihaMorph\MyanMap;
+namespace ThihaMorph\MyanMap\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
