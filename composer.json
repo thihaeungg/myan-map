@@ -14,16 +14,6 @@
             "name": "thihaeung"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "ThihaMorph\\MyanMap\\DatabaseServiceProvider"
-            ],
-            "migrations": [
-                "myan-map-migrations"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "require": {}
 }
