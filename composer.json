@@ -8,12 +8,6 @@
             "ThihaMorph\\MyanMap\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "https://github.com/thihaeungg/myan-map.git"
-        }
-    ],
     "authors": [
         {
             "name": "thihaeung"
@@ -29,6 +23,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
