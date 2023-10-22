@@ -3,12 +3,9 @@
 namespace ThihaMorph\MyanMap\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
-use ThihaMorph\MyanMap\Trait\CommandMapTrait;
 
 class City extends Model
 {
-    use CommandMapTrait;
-
     protected $table = 'cities';
 
     protected $fillable = ['name'];
