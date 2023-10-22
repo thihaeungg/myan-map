@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ThihaMorph\\MyanMap\\": "src/"
+            "ThihaMorph\\MyanMap\\": "src/",
+            "Src\\": "src/"
         }
     },
     "authors": [
@@ -15,7 +16,9 @@
     ],
     "extra": {
         "laravel": {
-            "Src\\": "src/",
+            "providers": [
+                "Src\\DatabaseServiceProvider"
+            ],
             "migrations": [
                 "myan-map-migrations"
             ]
