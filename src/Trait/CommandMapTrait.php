@@ -74,7 +74,7 @@ trait CommandMapTrait
         }
     }
 
-    public function delete(int $id)
+    public function deleteCommand(int $id)
     {
         $model = get_class($this);
 
