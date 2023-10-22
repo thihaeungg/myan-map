@@ -13,7 +13,7 @@ trait CommandMapTrait
     {
         $model = get_class($this);
 
-        $value ? $model::firstOrCreate([$value]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
+        $value ? $model::firstOrCreate(['name' => $value]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
 
         $this->createValidationAndSave($model, $subValue);
     }
@@ -47,7 +47,7 @@ trait CommandMapTrait
 
         $model::findOrFail($id);
 
-        $newValue ? $model::update([$newValue]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
+        $newValue ? $model::update([['name' => $newValue]]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
 
         $this->updateValidationAndSave($model, $subValue);
     }
