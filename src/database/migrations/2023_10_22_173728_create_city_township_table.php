@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('city_id')->nullable()->references('id')->on('cities')->onDelete('cascade');
             $table->foreignId('township_id')->nullable()->references('id')->on('townships')->onDelete('cascade');
-            $table->timestamps();
         });
     }
 
