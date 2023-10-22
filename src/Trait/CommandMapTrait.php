@@ -9,7 +9,7 @@ use ThihaMorph\MyanMap\Eloquent\Township;
 
 trait CommandMapTrait
 {
-    public function create(string $value,array $subValue = [])
+    public function createCommand(string $value,array $subValue = [])
     {
         $model = get_class($this);
 
@@ -41,7 +41,7 @@ trait CommandMapTrait
             }
     }
 
-    public function update(string $newValue, string $model,array $subValue = [],int $id)
+    public function updateCommand(string $newValue, string $model,array $subValue = [],int $id)
     {
         $model = get_class($this);
 
