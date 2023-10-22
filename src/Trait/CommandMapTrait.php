@@ -22,16 +22,16 @@ trait CommandMapTrait
     {
             switch ($model) {
                 case State::class:
-                    if(!$this->areAllIntegers($subValue) && count($subValue) > 0){
-                        throw new MyanMapException('Array ထဲတွင် တန်ဖိုးရှိရမည်ဖြစ်ပြီး တန်ဖိုးအားလုံးသည် ကိန်းပြည့်ဖြစ်ရမည်။');
+                    if(!$this->areAllIntegers($subValue)){
+                        throw new MyanMapException('Array ထဲတွင် တန်ဖိုးအားလုံးသည် ကိန်းပြည့်ဖြစ်ရမည်။');
                     }
-                    $model->cities()->attach($subValue);
+                    count($subValue) > 0 ? $model->cities()->attach($subValue) : '';
                     break;
                 case City::class:
-                    if(!$this->areAllIntegers($subValue) && count($subValue) > 0){
-                        throw new MyanMapException('Array ထဲတွင် တန်ဖိုးရှိရမည်ဖြစ်ပြီး တန်ဖိုးအားလုံးသည် ကိန်းပြည့်ဖြစ်ရမည်။');
+                    if(!$this->areAllIntegers($subValue)){
+                        throw new MyanMapException('Array ထဲတွင် တန်ဖိုးအားလုံးသည် ကိန်းပြည့်ဖြစ်ရမည်။');
                     }
-                    $model->townships()->attach($subValue);
+                    count($subValue) > 0 ? $model->townships()->attach($subValue) : '';
                     break;
                 case Township::class:
                     break;
@@ -45,7 +45,7 @@ trait CommandMapTrait
     {
         $model = get_class($this);
 
-        $model-findOrFail($id);
+        $model::findOrFail($id);
         $newValue ? $model::update([$newValue]) : throw new MyanMapException('တန်ဖိုး ထည့်ရပါမည်။');
 
         $this->updateValidationAndSave($model, $subValue);
@@ -55,16 +55,16 @@ trait CommandMapTrait
     {
         switch ($model) {
             case State::class:
-                if(!$this->areAllIntegers($subValue) && count($subValue) > 0){
+                if(!$this->areAllIntegers($subValue)){
                     throw new MyanMapException('Array ထဲတွင် တန်ဖိုးရှိရမည်ဖြစ်ပြီး တန်ဖိုးအားလုံးသည် ကိန်းပြည့်ဖြစ်ရမည်။');
                 }
-                $model->cities()->updateExistingPivot($subValue);
+                count($subValue) > 0 ? $model->cities()->updateExistingPivot($subValue) : '';
                 break;
             case City::class:
-                if(!$this->areAllIntegers($subValue) && count($subValue) > 0){
+                if(!$this->areAllIntegers($subValue)){
                     throw new MyanMapException('Array ထဲတွင် တန်ဖိုးရှိရမည်ဖြစ်ပြီး တန်ဖိုးအားလုံးသည် ကိန်းပြည့်ဖြစ်ရမည်။');
                 }
-                $model->townships()->updateExistingPivot($subValue);
+                count($subValue) > 0 ? $model->townships()->updateExistingPivot($subValue) : '';
                 break;
             case Township::class:
                 break;
