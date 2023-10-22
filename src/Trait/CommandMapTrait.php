@@ -41,7 +41,7 @@ trait CommandMapTrait
             }
     }
 
-    public function updateCommand(string $newValue, string $model,array $subValue = [],int $id)
+    public function updateCommand(string $newValue,int $id,array $subValue = [])
     {
         $model = get_class($this);
 
