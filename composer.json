@@ -5,8 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ThihaMorph\\MyanMap\\": "src/",
-            "Src\\": "src/"
+            "ThihaMorph\\MyanMap\\": "src/"
         }
     },
     "authors": [
