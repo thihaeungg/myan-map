@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ThihaMorph\\MyanMap\\DatabaseServiceProvider"
+                "ThihaMorph\\MyanMap\\provider\\DatabaseServiceProvider"
             ],
             "migrations": [
                 "myan-map-migrations"
