@@ -8,11 +8,27 @@
             "ThihaMorph\\MyanMap\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/thihaeungg/myan-map.git"
+        }
+    ],
     "authors": [
         {
             "name": "thihaeung"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Src\\DatabaseServiceProvider"
+            ],
+            "migrations": [
+                "myan-map-migrations"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
