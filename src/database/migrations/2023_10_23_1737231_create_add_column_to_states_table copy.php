@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('states', function (Blueprint $table) {
+        Schema::table('states', function (Blueprint $table) {
             $table->foreignId('capital_id')->nullable()->references('id')->on('cities')->onDelete('cascade');
         });
     }
