@@ -1,5 +1,7 @@
 <?php
 
+namespace ThihaMorph\MyanMap;
+
 use Illuminate\Support\ServiceProvider;
 use ThihaMorph\MyanMap\Commands\DataCommand;
 
