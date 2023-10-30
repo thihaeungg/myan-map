@@ -77,7 +77,7 @@ trait DataTrait
                     $newState->self_administers()->attach([$newSelfAdminister->id]);
 
                     foreach($cities[$state['flag']] as $city){
-                        if($city['self_administer'] == $selfadministers['flag']){
+                        if($city['self_administer'] == $selfadministers['sagaing_selfadminister']['flag']){
                             $updateCity = City::where('name_en', $city->name_en)->update(['self_administer_id' => $newSelfAdminister->id]);
                         }
                     }
