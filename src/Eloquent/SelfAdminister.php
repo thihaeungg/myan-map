@@ -14,7 +14,7 @@ class SelfAdminister extends Model
 
     public function cities()
     {
-        return $this->hasMany(City::class, 'selfadminister_id', 'id');
+        return $this->hasMany(City::class, 'self_administer_id', 'id');
     }
 
     public function state()

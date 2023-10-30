@@ -17,10 +17,10 @@ class City extends Model
 
     public function state()
     {
-        return $this->belongsTo(State::class);
+        return $this->belongsToMany(State::class, 'city_state', 'city_id', 'state_id');
     }
 
-    public function self_adiminister()
+    public function self_administer()
     {
         return $this->belongsTo(SelfAdminister::class);
     }
