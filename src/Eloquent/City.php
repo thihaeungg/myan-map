@@ -17,7 +17,7 @@ class City extends Model
 
     public function state()
     {
-        return $this->belongsToMany(State::class, 'city_state', 'city_id', 'state_id');
+        return $this->belongsToMany(State::class, 'state_city', 'city_id', 'state_id');
     }
 
     public function self_administer()
