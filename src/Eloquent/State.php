@@ -8,7 +8,7 @@ class State extends Model
 {
     protected $table = 'states';
 
-    protected $fillable = ['name_mm', 'name_en'];
+    protected $fillable = ['name_mm', 'name_en', 'flag'];
 
     public function cities()
     {

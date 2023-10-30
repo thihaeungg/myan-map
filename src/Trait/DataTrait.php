@@ -37,10 +37,10 @@ trait DataTrait
         $selfadministers = json_decode($getSelfadministers, true);
 
         $cities = json_decode($getCities, true);
+        
+        $flags = json_decode($getFlags, true);
 
         foreach($states as $state){
-            $flags = json_decode($getFlags, true);
-
             $newState = State::create([
                 "name_mm" => $state['name_mm'],
                 "name_en" => $state['name_en'],
