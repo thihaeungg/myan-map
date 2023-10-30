@@ -71,7 +71,7 @@ trait DataTrait
                     $newSelfAdminister = SelfAdminister::create([
                         "name_mm" => $selfadministers['sagaing_selfadminister']['name_mm'],
                         "name_en" => $selfadministers['sagaing_selfadminister']['name_en'],
-                        "flag" => $flags[$selfadministers['sagaing_selfadminister']['name_en']]
+                        "flag" => $flags[$selfadministers['sagaing_selfadminister']['flag']]
                     ]);
 
                     $newState->self_administers()->attach([$newSelfAdminister->id]);
