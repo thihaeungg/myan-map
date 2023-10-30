@@ -5,6 +5,7 @@ namespace ThihaMorph\MyanMap\Commands;
 use Artisan;
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use ThihaMorph\MyanMap\Trait\DataTrait;
 
@@ -29,11 +30,16 @@ class DataCommand extends Command
             $missingTablesList = implode(', ', $missingTables);
             $this->error("The following tables are missing: {$missingTablesList}");
         } else {
+            DB::statement('SET FOREIGN_KEY_CHECKS=0');
+
             foreach ($expectedTables as $table) {
-                $model = ucfirst(Str::singular($table));
-                $modelClass = "ThihaMorph\MyanMap\Eloquent\\$model";
-                $modelClass::truncate();
+                if (Schema::hasTable($table)) {
+                    DB::table($table)->truncate();
+                }
             }
+
+            DB::statement('SET FOREIGN_KEY_CHECKS=1');
+
             $this->seedData();
         }
     }
