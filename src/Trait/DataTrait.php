@@ -37,17 +37,20 @@ trait DataTrait
         $selfadministers = json_decode($getSelfadministers, true);
 
         $cities = json_decode($getCities, true);
-        
+
         $flags = json_decode($getFlags, true);
 
         foreach($states as $state){
             $newState = State::create([
                 "name_mm" => $state['name_mm'],
                 "name_en" => $state['name_en'],
-                "flag" => $flags[$state['flag']]
+                "flag" => $flags[$state['flag']],
             ]);
 
-            $syncCities = $state['flag'] != 'npt' ? $newState->cities()->createMany($cities[$state['flag']]) : '';
+            $syncCities = $newState->cities()->createMany($cities[$state['flag']]);
+
+            $newState->capital_id = City::where('name_en', $state['capital'])->first()->id;
+            $newState->update();
 
             if($state['name_en'] == 'Shan State' || $state['name_en'] == 'Sagaing Region'){
                 if($state['name_en'] == 'Shan State'){
@@ -55,7 +58,7 @@ trait DataTrait
                         $newSelfAdminister = SelfAdminister::create([
                             "name_mm" => $selfadminister['name_mm'],
                             "name_en" => $selfadminister['name_en'],
-                            "flag" => $flags[$selfadminister['flag']]
+                            "flag" => $flags[$selfadminister['flag']],
                         ]);
 
                         $newState->self_administers()->attach([$newSelfAdminister->id]);
@@ -64,6 +67,8 @@ trait DataTrait
                             if($city['self_administer'] == $selfadminister['flag']){
                                 $updateCity = City::where('name_en', $city['name_en'])->update(['self_administer_id' => $newSelfAdminister->id]);
                             }
+                            $newSelfAdminister->capital_id = City::where('name_en', $selfadminister['capital'])->first()->id;
+                            $newSelfAdminister->update();
                         }
                     }
 
@@ -81,6 +86,9 @@ trait DataTrait
                             $updateCity = City::where('name_en', $city['name_en'])->update(['self_administer_id' => $newSelfAdminister->id]);
                         }
                     }
+
+                    $newSelfAdminister->capital_id = City::where('name_en', $selfadministers['sagaing_selfadminister']['capital'])->first()->id;
+                    $newSelfAdminister->update();
                 }
 
             }

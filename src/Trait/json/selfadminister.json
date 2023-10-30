@@ -3,32 +3,38 @@
         {
             "name_mm" : "ဓနုကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
             "name_en" : "Danu Self-Administered Zone",
-            "flag" : "dnu"
+            "flag" : "dnu",
+            "capital": "Pintaya"
         },
         {
             "name_mm" : "ကိုးကန့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
             "name_en" : "Kokang Self-Administered Zone",
-            "flag" : "kokg"
+            "flag" : "kokg",
+            "capital": "Laukkai"
         },
         {
             "name_mm" : "ပလောင်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
             "name_en" : "Pa Laung Self-Administered Zone",
-            "flag" : "plng"
+            "flag" : "plng",
+            "capital": "Namhsan"
         },
         {
             "name_mm" : "ပအိုဝ့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
             "name_en" : "Pa\"O Self-Administered Zone",
-            "flag" : "pao"
+            "flag" : "pao",
+            "capital": "Hopong"
         },
         {
             "name_mm" : "၀ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
             "name_en" : "Wa Self-Administered Zone",
-            "flag" : "wa"
+            "flag" : "wa",
+            "capital": "Hopang"
         }
     ],
     "sagaing_selfadminister" : {
         "name_mm" : "နာဂကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
         "name_en" : "Naga Self-Administered Zone",
-        "flag" : "nga"
+        "flag" : "nga",
+        "capital": "Lahe"
     }
 }

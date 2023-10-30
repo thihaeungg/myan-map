@@ -1,7 +1,7 @@
 {
     "aya" : [
         {
-            "name_en" : "Panthein",
+            "name_en" : "Pathein",
             "name_mm" : "ပုသိမ်",
             "self_administer" : null
         },
@@ -787,7 +787,7 @@
     ],
     "mn" : [
         {
-            "name_en" : "Mawlamyaing",
+            "name_en" : "Mawlamyine",
             "name_mm" : "မော်လမြိုင်",
             "self_administer" : null
         },
@@ -961,7 +961,7 @@
             "self_administer" : null
         },
         {
-            "name_en" : "Lahel",
+            "name_en" : "Lahe",
             "name_mm" : "လဟယ်",
             "self_administer" : "nga"
         },
@@ -1098,7 +1098,7 @@
             "self_administer" : "dnu"
         },
         {
-            "name_en" : "Laukkine",
+            "name_en" : "Laukkai",
             "name_mm" : "လောက်ကိုင်",
             "self_administer" : "kokg"
         },
@@ -1178,7 +1178,7 @@
             "self_administer" : null
         },
         {
-            "name_en" : "Nantsam",
+            "name_en" : "Namhsan",
             "name_mm" : "နမ့်စန်",
             "self_administer" : "plng"
         },
@@ -1253,7 +1253,7 @@
             "self_administer" : "pao"
         },
         {
-            "name_en" : "Hopon",
+            "name_en" : "Hopong",
             "name_mm" : "ဟိုပုံး",
             "self_administer" : "pao"
         },
@@ -1278,7 +1278,7 @@
             "self_administer" : "wa"
         },
         {
-            "name_en" : "Hopan",
+            "name_en" : "Hopang",
             "name_mm" : "ဟိုပန်",
             "self_administer" : "wa"
         },
@@ -1479,6 +1479,13 @@
         {
             "name_en" : "Kokoekyon",
             "name_mm" : "ကိုကိုးကျွန်း",
+            "self_administer" : null
+        }
+    ],
+    "npt": [
+        {
+            "name_en" : "Naypyitaw",
+            "name_mm" : "နေပြည်တော်",
             "self_administer" : null
         }
     ]

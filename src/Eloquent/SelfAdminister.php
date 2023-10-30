@@ -10,7 +10,7 @@ class SelfAdminister extends Model
 {
     protected $table = 'selfadministers';
 
-    protected $fillable = ['name_mm', 'name_en', 'flag'];
+    protected $fillable = ['name_mm', 'name_en', 'flag', 'capital_id'];
 
     public function cities()
     {
@@ -20,5 +20,10 @@ class SelfAdminister extends Model
     public function state()
     {
         return $this->belongsTo(State::class);
+    }
+
+    public function capital()
+    {
+        return $this->belongsTo(City::class);
     }
 }

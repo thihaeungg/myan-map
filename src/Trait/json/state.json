@@ -2,76 +2,91 @@
     {
         "name_mm": "ဧရာဝတီတိုင်းဒေသကြီး",
         "name_en": "Ayeyarwady Region",
-        "flag": "aya"
+        "flag": "aya",
+        "capital": "Pathein"
     },
     {
         "name_mm": "ပဲခူးတိုင်းဒေသကြီး",
         "name_en": "Bago Region",
-        "flag": "bgo"
+        "flag": "bgo",
+        "capital": "Bago"
     },
     {
         "name_mm": "ချင်းပြည်နယ်",
         "name_en": "Chin State",
-        "flag": "ch"
+        "flag": "ch",
+        "capital": "Hakha"
     },
     {
         "name_mm": "ကချင်ပြည်နယ်",
         "name_en": "Kachin State",
-        "flag": "kacn"
+        "flag": "kacn",
+        "capital": "Myitkyina"
     },
     {
         "name_mm": "ကယားပြည်နယ်",
         "name_en": "Kayah State",
-        "flag": "kya"
+        "flag": "kya",
+        "capital": "Loikaw"
     },
     {
         "name_mm": "ကရင်ပြည်နယ်",
         "name_en": "Kayin State",
-        "flag": "kyn"
+        "flag": "kyn",
+        "capital": "Pha An"
     },
     {
         "name_mm": "မကွေးတိုင်းဒေသကြီး",
         "name_en": "Magway Region",
-        "flag": "mgwy"
+        "flag": "mgwy",
+        "capital": "Magway"
     },
     {
         "name_mm": "မန္တလေးတိုင်းဒေသကြီး",
         "name_en": "Mandalay Region",
-        "flag": "mdy"
+        "flag": "mdy",
+        "capital": "Mandalay"
     },
     {
         "name_mm": "မွန်ပြည်နယ်",
         "name_en": "Mon State",
-        "flag": "mn"
+        "flag": "mn",
+        "capital": "Mawlamyine"
     },
     {
         "name_mm": "နေပြည်တော် ပြည်ထောင်စုနယ်မြေ",
         "name_en": "Naypyidaw Union Territory",
-        "flag": "npt"
+        "flag": "npt",
+        "capital": "Naypyitaw"
     },
     {
         "name_mm": "ရခိုင်ပြည်နယ်",
         "name_en": "Rakhine State",
-        "flag": "rkn"
+        "flag": "rkn",
+        "capital": "Sittwe"
     },
     {
         "name_mm": "စစ်ကိုင်းတိုင်းဒေသကြီး",
         "name_en": "Sagaing Region",
-        "flag": "sgng"
+        "flag": "sgng",
+        "capital": "Sagaing"
     },
     {
         "name_mm": "ရှမ်းပြည်နယ်",
         "name_en": "Shan State",
-        "flag": "sn"
+        "flag": "sn",
+        "capital": "Taunggyi"
     },
     {
         "name_mm": "တနင်္သာရီတိုင်းဒေသကြီး",
         "name_en": "Tanintharyi Region",
-        "flag": "tntyi"
+        "flag": "tntyi",
+        "capital": "Dawei"
     },
     {
         "name_mm": "ရန်ကုန်တိုင်းဒေသကြီး",
         "name_en": "Yangon Region",
-        "flag": "ygn"
+        "flag": "ygn",
+        "capital": "Yangon"
     }
 ]

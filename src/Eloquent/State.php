@@ -8,7 +8,7 @@ class State extends Model
 {
     protected $table = 'states';
 
-    protected $fillable = ['name_mm', 'name_en', 'flag'];
+    protected $fillable = ['name_mm', 'name_en', 'flag', 'capital_id'];
 
     public function cities()
     {
@@ -18,5 +18,10 @@ class State extends Model
     public function self_administers()
     {
         return $this->belongsToMany(SelfAdminister::class, 'state_selfadminister', 'state_id', 'selfadminister_id');
+    }
+
+    public function capital()
+    {
+        return $this->belongsTo(City::class);
     }
 }
