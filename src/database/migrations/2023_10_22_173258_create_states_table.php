@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('states', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
+            $table->string('name_mm')->nullable();
+            $table->string('name_en')->nullable();
+            $table->string('flag')->nullable();
             $table->timestamps();
         });
     }

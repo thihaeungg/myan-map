@@ -1,0 +1,1485 @@
+{
+    "aya" : [
+        {
+            "name_en" : "Panthein",
+            "name_mm" : "ပုသိမ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Warkhalma",
+            "name_mm" : "၀ါးခယ်မ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tharpaung",
+            "name_mm" : "သာပေါင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ahmar",
+            "name_mm" : "အမာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nyaungtone",
+            "name_mm" : "ညောင်တုန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Bokalay",
+            "name_mm" : "ဘိုကလေး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ngwesaung",
+            "name_mm" : "ငွေဆောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Laymyatnar",
+            "name_mm" : "လေးမျက်နှာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yaykyi",
+            "name_mm" : "ရေကြည်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaungkone",
+            "name_mm" : "ကျောင်းကုန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Daydaye",
+            "name_mm" : "ဒေးဒရဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyonepyor",
+            "name_mm" : "ကျူံပျော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ingapu",
+            "name_mm" : "အင်္ဂပူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Zalun",
+            "name_mm" : "ဇလွန်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyankhin",
+            "name_mm" : "ကြံခင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaiklat",
+            "name_mm" : "ကျိူက်လတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pantanaw",
+            "name_mm" : "ပန်းတနော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Duuyaa",
+            "name_mm" : "ဒူးယား",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Chaungthar",
+            "name_mm" : "ချောင်းသာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Eain Mal",
+            "name_mm" : "အိမ်မဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myanaung",
+            "name_mm" : "မြန်အောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Maubin",
+            "name_mm" : "မအူပင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kangyidaunt",
+            "name_mm" : "ကန်ကြီးထောင့်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ngaputaw",
+            "name_mm" : "ငပုတော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hinthada",
+            "name_mm" : "ဟင်္သာတ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Labutta",
+            "name_mm" : "လပွတ္တာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Maubin",
+            "name_mm" : "မအူပင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myanaung",
+            "name_mm" : "မြန်အောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myaungmya",
+            "name_mm" : "မြောင်းမြ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pyapon",
+            "name_mm" : "ဖျာပုံ",
+            "self_administer" : null
+        }
+    ],
+    "bgo" : [
+        {
+            "name_en" : "Bago",
+            "name_mm" : "ပဲခူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shwetaung",
+            "name_mm" : "ရွှေတောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Zeekone",
+            "name_mm" : "ဇီးကုန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Latpantan",
+            "name_mm" : "လက်ပံတန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minhla",
+            "name_mm" : "မင်းလှ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaukkyi",
+            "name_mm" : "ကျောက်ကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Oakpho",
+            "name_mm" : "အုတ်ဖို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Monyo",
+            "name_mm" : "မိုးညို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Paungtal",
+            "name_mm" : "ပေါင်းတည်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Oaktwin",
+            "name_mm" : "အုတ်တွင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kawa",
+            "name_mm" : "က၀",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yaytarshay",
+            "name_mm" : "ရေတာရှည်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shwekyin",
+            "name_mm" : "ရွှေကျင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thanatpin",
+            "name_mm" : "သနပ်ပင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Phyuu",
+            "name_mm" : "ဖြူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Paukkhaung",
+            "name_mm" : "ပေါက်ခေါင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pantaung",
+            "name_mm" : "ပန်းတောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyohpinkauk",
+            "name_mm" : "ကြို့ပင်ကောက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "DeikU",
+            "name_mm" : "ဒိုက်ဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyauktaga",
+            "name_mm" : "ကျောက်တံခါး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pyontansar",
+            "name_mm" : "ပြွန်တန်ဆာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pyay",
+            "name_mm" : "ပြည်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tharrawaddy",
+            "name_mm" : "သာယာ၀တီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nyaunglebin",
+            "name_mm" : "ညောင်လေးပင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nattalin",
+            "name_mm" : "နတ်တလင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Taunggo",
+            "name_mm" : "တောင်ငူ",
+            "self_administer" : null
+        }
+    ],
+    "ch" : [
+        {
+            "name_en" : "Hakha",
+            "name_mm" : "ဟားခါး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Matupi",
+            "name_mm" : "မတူပီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kanpetlet",
+            "name_mm" : "ကန်ပက်လက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyikha",
+            "name_mm" : "ကျီခါး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Falam",
+            "name_mm" : "ဖလမ်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mintat",
+            "name_mm" : "မင်းတပ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kalay",
+            "name_mm" : "ကလေး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Palatwa",
+            "name_mm" : "ပလက်၀",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Htantalan",
+            "name_mm" : "ထန်တလန်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tonzang",
+            "name_mm" : "တွန်းဇံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Teetain",
+            "name_mm" : "တီးတိန်",
+            "self_administer" : null
+        }
+    ],
+    "kacn" : [
+        {
+            "name_en" : "Mansi",
+            "name_mm" : "မန်စီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Winemaw",
+            "name_mm" : "၀ိုင်းမော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Sadaung",
+            "name_mm" : "ဆဒေါင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shinbwayyan",
+            "name_mm" : "ရှင်ဗွေယန်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Lwaljal",
+            "name_mm" : "လွယ်ဂျယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Momauk",
+            "name_mm" : "မိုးမောက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Putao",
+            "name_mm" : "ပူတာအို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myitkyina",
+            "name_mm" : "မြစ်ကြီးနား",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tanai",
+            "name_mm" : "တနိုင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tanai",
+            "name_mm" : "တနိုင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shweku",
+            "name_mm" : "ရွှေကူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mohnyin",
+            "name_mm" : "မိုးညှင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hpakant",
+            "name_mm" : "ဖားကန့်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Bamaw",
+            "name_mm" : "ဗန်းမော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mokaung",
+            "name_mm" : "မိုးကောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Karmine",
+            "name_mm" : "ကာမိုင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Inndaw",
+            "name_mm" : "အင်းတော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Machanbaw",
+            "name_mm" : "မချမ်းဘော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hopin",
+            "name_mm" : "ဟိုပင်",
+            "self_administer" : null
+        }
+    ],
+    "kya" : [
+        {
+            "name_en" : "Loikaw",
+            "name_mm" : "လွိုင်ကော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Malsae",
+            "name_mm" : "မယ်စဲ့",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Fruso",
+            "name_mm" : "ဖရူဆို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Bawlakhal",
+            "name_mm" : "ဘော်လခဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pharsaung",
+            "name_mm" : "ဖားဆောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shataw",
+            "name_mm" : "ရှားတော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Demorso",
+            "name_mm" : "ဒီမောဆို",
+            "self_administer" : null
+        }
+    ],
+    "kyn" : [
+        {
+            "name_en" : "Pha An",
+            "name_mm" : "ဖားအံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thandaunggyi",
+            "name_mm" : "သံတောင်ကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myawadi",
+            "name_mm" : "မြ၀တီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kamamaung",
+            "name_mm" : "ကမမောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Marnelpalaw",
+            "name_mm" : "မာနယ်ပလော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kortkayate",
+            "name_mm" : "ကော့ကရိတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Belin",
+            "name_mm" : "ဘီးလင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hlaingbwe",
+            "name_mm" : "လှိုင်းဘွဲ့",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Phayarthonesuu",
+            "name_mm" : "ဘုရားသုံးဆူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shanywarthit",
+            "name_mm" : "ရှမ်းရွာသစ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyarinsatekyi",
+            "name_mm" : "ကြာအင်းဆိပ်ကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Phapon",
+            "name_mm" : "ဖာပွန်",
+            "self_administer" : null
+        }
+    ],
+    "mgwy" : [
+        {
+            "name_en" : "Magway",
+            "name_mm" : "မကွေး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minbu",
+            "name_mm" : "မင်းဘူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thayet",
+            "name_mm" : "သရက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Taungtwingyi",
+            "name_mm" : "တောင်တွင်းကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Natmauk",
+            "name_mm" : "နက်မောက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Gantkaw",
+            "name_mm" : "ဂန့်ဂေါ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ngaphe",
+            "name_mm" : "ငဖဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Chauk",
+            "name_mm" : "ချောက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Batethanoe",
+            "name_mm" : "ဗိဿနိုး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mindon",
+            "name_mm" : "မင်းတုန်း ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pakhokku",
+            "name_mm" : "ပခုက္ကူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Aunglan",
+            "name_mm" : "အောင်လံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Salin",
+            "name_mm" : "စလင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pwintphyu",
+            "name_mm" : "ပွင့်ဖြူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Saw",
+            "name_mm" : "ဆော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yaynanchaung",
+            "name_mm" : "ရေနံချောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myaing",
+            "name_mm" : "မြိုင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pauk",
+            "name_mm" : "ပေါက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Seikphyu",
+            "name_mm" : "ဆိပ်ဖြူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaukhtu",
+            "name_mm" : "ကျောက်ထု",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myoethit",
+            "name_mm" : "မြို့သစ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yaysakyo",
+            "name_mm" : "ရေစကြို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Salay",
+            "name_mm" : "စလေ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hteelin",
+            "name_mm" : "ထီးလင်း",
+            "self_administer" : null
+        }
+    ],
+    "mdy" : [
+        {
+            "name_en" : "Mandalay",
+            "name_mm" : "မန္တလေး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Meikhtila",
+            "name_mm" : "မိတ္ထီလာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mattaya",
+            "name_mm" : "မတ္တရာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Old Bagan",
+            "name_mm" : "ပုဂံ မြို့ဟောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mogok",
+            "name_mm" : "မိုးကုတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "မလှိုင်",
+            "name_mm" : "Mahlaing",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Innwa",
+            "name_mm" : "အင်း၀",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaukpadaung",
+            "name_mm" : "ကျောက်ပန်းတောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Amayapuya",
+            "name_mm" : "အမရပူရ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nyaungoo",
+            "name_mm" : "ညောင်ဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pyinoolwin",
+            "name_mm" : "ပြင်ဦးလွင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myitthar",
+            "name_mm" : "မြစ်သား",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myinchan",
+            "name_mm" : "မြင်းခြံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thapatekyin",
+            "name_mm" : "သပိတ်ကျဥ်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Wantwin",
+            "name_mm" : "၀မ်းတွင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pyorbwe",
+            "name_mm" : "ပျော်ဘွယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Taungtha",
+            "name_mm" : "တောင်သာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nahtogyi",
+            "name_mm" : "နွားထိုးကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Seikphyu",
+            "name_mm" : "ဆိပ်ဖြူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yamethin",
+            "name_mm" : "ရမည်းသင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tader U",
+            "name_mm" : "တံတားဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "SintKine",
+            "name_mm" : "စဥ့်ကိုင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaukse",
+            "name_mm" : "ကျောက်ဆည်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tagaung",
+            "name_mm" : "တကောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tharsi",
+            "name_mm" : "သာစည်",
+            "self_administer" : null
+        }
+    ],
+    "mn" : [
+        {
+            "name_en" : "Mawlamyaing",
+            "name_mm" : "မော်လမြိုင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaikhto",
+            "name_mm" : "ကျိုက်ထို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yay",
+            "name_mm" : "ရေး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mudon",
+            "name_mm" : "မုဒုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Paung",
+            "name_mm" : "ပေါင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thanphyuzayat",
+            "name_mm" : "သံဖြူဇရပ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mottama",
+            "name_mm" : "မုတ္တမ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaikmaraw",
+            "name_mm" : "ကျိူက်မရော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thahton",
+            "name_mm" : "သထုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaikkhami",
+            "name_mm" : "ကျိုက္ခမီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Chaungsone",
+            "name_mm" : "ချောင်းဆုဲံ",
+            "self_administer" : null
+        }
+    ],
+    "rkn" : [
+        {
+            "name_en" : "Sittwe",
+            "name_mm" : "စစ်တွေ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Buuteetaung",
+            "name_mm" : "ဘူးသီးတောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Manaung",
+            "name_mm" : "မာန်အောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yataetaung",
+            "name_mm" : "ရသေ့တောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Waytharli",
+            "name_mm" : "၀ေသာလီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Taunggok",
+            "name_mm" : "တောင်ကုတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myaukoo",
+            "name_mm" : "မြောက်ဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minpya",
+            "name_mm" : "မင်းပြား",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myaypone",
+            "name_mm" : "မြေပုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Maungtaw",
+            "name_mm" : "မောင်တော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thantwe",
+            "name_mm" : "သံတွဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ann",
+            "name_mm" : "အမ်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ponnakyon",
+            "name_mm" : "ပုဏ္ဏားကျွန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yanbyal",
+            "name_mm" : "ရမ်းဗြဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Danyawadi",
+            "name_mm" : "ဓည၀တီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyauktaw",
+            "name_mm" : "ကျော်တော်",
+            "self_administer" : null
+        }
+    ],
+    "sgng" : [
+        {
+            "name_en" : "Sagaing",
+            "name_mm" : "စစ်ကိုင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tamu",
+            "name_mm" : "တမူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yinmapin",
+            "name_mm" : "ယင်းမာပင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Layshi",
+            "name_mm" : "လေရှီး",
+            "self_administer" : "nga"
+        },
+        {
+            "name_en" : "Katha",
+            "name_mm" : "ကသာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myinmu",
+            "name_mm" : "မြင်းမူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kani",
+            "name_mm" : "ကနီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Lahel",
+            "name_mm" : "လဟယ်",
+            "self_administer" : "nga"
+        },
+        {
+            "name_en" : "Watlat",
+            "name_mm" : "၀က်လက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hkamni",
+            "name_mm" : "ခန္တီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Chaung U",
+            "name_mm" : "ချောင်းဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Monywa",
+            "name_mm" : "မုံရွာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Wuntho",
+            "name_mm" : "၀န်းသို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kantbalu",
+            "name_mm" : "ကန့်ဘလူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nanyon",
+            "name_mm" : "နန်းယွန်း",
+            "self_administer" : "nga"
+        },
+        {
+            "name_en" : "Homemalin",
+            "name_mm" : "ဟုမ္မလင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mawlaik",
+            "name_mm" : "မော်လိုက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yay U",
+            "name_mm" : "ရေဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Shwebo",
+            "name_mm" : "ရွှေဘို",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hteechaint",
+            "name_mm" : "ထီးချိူင့်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pinlalbu",
+            "name_mm" : "ပင်လည်ဘူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Khin U",
+            "name_mm" : "ခင်ဦး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tantse",
+            "name_mm" : "တန့်ဆည်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Phaungpyin",
+            "name_mm" : "ဖောင်းပြင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kawlin",
+            "name_mm" : "ကောလင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Ayadaw",
+            "name_mm" : "အရာတော်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minkon",
+            "name_mm" : "မင်းကွန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Butalin",
+            "name_mm" : "ဘုတလင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Sertaung",
+            "name_mm" : "ဆားတောင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Bamauk",
+            "name_mm" : "ဗမောက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Serlingyi",
+            "name_mm" : "ဆားလင်းကြီး",
+            "self_administer" : null
+        }
+    ],
+    "sn" : [
+        {
+            "name_en" : "Ywarngan",
+            "name_mm" : "ရွာငံ",
+            "self_administer" : "dnu"
+        },
+        {
+            "name_en" : "Kalaw",
+            "name_mm" : "ကလော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pintaya",
+            "name_mm" : "ပင်းတယ",
+            "self_administer" : "dnu"
+        },
+        {
+            "name_en" : "Laukkine",
+            "name_mm" : "လောက်ကိုင်",
+            "self_administer" : "kokg"
+        },
+        {
+            "name_en" : "Minela",
+            "name_mm" : "မိုင်းလား",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minepyat",
+            "name_mm" : "မိုင်းဖြတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nyaungshwe",
+            "name_mm" : "ညောင်ရွှေ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mawkmai",
+            "name_mm" : "မောက်မယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tantyen",
+            "name_mm" : "တန့်ယန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Konhein",
+            "name_mm" : "ကွန်ဟိန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yatsauk",
+            "name_mm" : "ရပ်စောက်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Namtu",
+            "name_mm" : "နမ့်မတူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Taunggyi",
+            "name_mm" : "တောင်ကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyineton",
+            "name_mm" : "ကျိုင်းတုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tachileik",
+            "name_mm" : "တာချီလိတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Momeik",
+            "name_mm" : "မိုးမိတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Monekoe",
+            "name_mm" : "မုန်းကိုး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nantkam",
+            "name_mm" : "နမ့်ခမ်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyaukme",
+            "name_mm" : "ကျောက်မဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Nantsam",
+            "name_mm" : "နမ့်စန်",
+            "self_administer" : "plng"
+        },
+        {
+            "name_en" : "Manton",
+            "name_mm" : "မန်တုံ",
+            "self_administer" : "plng"
+        },
+        {
+            "name_en" : "Kutkhaing",
+            "name_mm" : "ကွတ်ခိုင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Lalcher",
+            "name_mm" : "လဲချား",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pensan",
+            "name_mm" : "ပန်ဆန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mineton",
+            "name_mm" : "မိုင်းတုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pinlon",
+            "name_mm" : "ပင်လုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Muse",
+            "name_mm" : "မူဆယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mone",
+            "name_mm" : "မိုးနဲ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minepen",
+            "name_mm" : "မိုင်းပန်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mineshu",
+            "name_mm" : "မိုင်းရှူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Aungpan",
+            "name_mm" : "အောင်ပန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pinlaung",
+            "name_mm" : "ပင်လောင်း",
+            "self_administer" : "pao"
+        },
+        {
+            "name_en" : "Paunglaung",
+            "name_mm" : "ပေါင်းလောင်း",
+            "self_administer" : "pao"
+        },
+        {
+            "name_en" : "Naungtaya",
+            "name_mm" : "နောင်တရား",
+            "self_administer" : "pao"
+        },
+        {
+            "name_en" : "Hopon",
+            "name_mm" : "ဟိုပုံး",
+            "self_administer" : "pao"
+        },
+        {
+            "name_en" : "Mineset",
+            "name_mm" : "မိုင်းဆတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Lashio",
+            "name_mm" : "လားရှိုး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mineyal",
+            "name_mm" : "မိုင်းရယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Minemaw",
+            "name_mm" : "မိုင်းမော",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Hopan",
+            "name_mm" : "ဟိုပန်",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Panwine",
+            "name_mm" : "ပန်၀ိုင်",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Panlon",
+            "name_mm" : "ပန်လုံ",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Matmen",
+            "name_mm" : "မက်မန်း",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Naphan",
+            "name_mm" : "နားဖန်း",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Pansan",
+            "name_mm" : "ပန်ဆန်း",
+            "self_administer" : "wa"
+        },
+        {
+            "name_en" : "Thipaw",
+            "name_mm" : "သီပေါ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mineyal",
+            "name_mm" : "မိုင်းရယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Theinni",
+            "name_mm" : "သန္နီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Sisine",
+            "name_mm" : "ဆီဆိုင်",
+            "self_administer" : "pao"
+        },
+        {
+            "name_en" : "Naungcho",
+            "name_mm" : "နောင်ချိူ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Loilin",
+            "name_mm" : "လွိုင်လင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kwanlon",
+            "name_mm" : "ကွမ်းလုဲံ",
+            "self_administer" : null
+        }
+    ],
+    "tntyi" : [
+        {
+            "name_en" : "Bokepyin",
+            "name_mm" : "ဘုတ်ပြင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyunsu",
+            "name_mm" : "ကျွန်းစု",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Pulaw",
+            "name_mm" : "ပုလော",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Dawei",
+            "name_mm" : "ထား၀ယ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Launglon",
+            "name_mm" : "လောင်းလုံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thayetchaung",
+            "name_mm" : "သရက်ချောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myeik",
+            "name_mm" : "မြိတ်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kawthaung",
+            "name_mm" : "ကော့သောင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Yebyu",
+            "name_mm" : "ရေဖြူ",
+            "self_administer" : null
+        }
+    ],
+    "ygn" : [
+        {
+            "name_en" : "Yangon",
+            "name_mm" : "ရန်ကုန်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thanlyin",
+            "name_mm" : "သံလျင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Mhawbi",
+            "name_mm" : "မှော်ဘီ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Taikkyi",
+            "name_mm" : "တိုက်ကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kyauktan",
+            "name_mm" : "ကျောက်တန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Thongwa",
+            "name_mm" : "သုံးခွ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Khayen",
+            "name_mm" : "ခရမ်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Zayatkwin",
+            "name_mm" : "ဇရပ်ကွင်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Oakkan",
+            "name_mm" : "ဥက္ကံ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Phaunggyi",
+            "name_mm" : "ဖောင်ကြီး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Myaungtagar",
+            "name_mm" : "မြောင်းတကာ",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Htantapin",
+            "name_mm" : "ထန်းတပင်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kawtmhu",
+            "name_mm" : "ကော့မှူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Konchankon",
+            "name_mm" : "ကွန်းခြံကုန်း",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Tontay",
+            "name_mm" : "တွံတေး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Dabein",
+            "name_mm" : "ဒါးပိန်",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Hleku",
+            "name_mm" : "လှည်းကူး",
+            "self_administer" : null
+        },
+        {
+            "name_en" : "Kokoekyon",
+            "name_mm" : "ကိုကိုးကျွန်း",
+            "self_administer" : null
+        }
+    ]
+}

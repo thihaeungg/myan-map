@@ -1,0 +1,77 @@
+[
+    {
+        "name_mm": "ဧရာဝတီတိုင်းဒေသကြီး",
+        "name_en": "Ayeyarwady Region",
+        "flag": "aya"
+    },
+    {
+        "name_mm": "ပဲခူးတိုင်းဒေသကြီး",
+        "name_en": "Bago Region",
+        "flag": "bgo"
+    },
+    {
+        "name_mm": "ချင်းပြည်နယ်",
+        "name_en": "Chin State",
+        "flag": "ch"
+    },
+    {
+        "name_mm": "ကချင်ပြည်နယ်",
+        "name_en": "Kachin State",
+        "flag": "kacn"
+    },
+    {
+        "name_mm": "ကယားပြည်နယ်",
+        "name_en": "Kayah State",
+        "flag": "kya"
+    },
+    {
+        "name_mm": "ကရင်ပြည်နယ်",
+        "name_en": "Kayin State",
+        "flag": "kyn"
+    },
+    {
+        "name_mm": "မကွေးတိုင်းဒေသကြီး",
+        "name_en": "Magway Region",
+        "flag": "mgwy"
+    },
+    {
+        "name_mm": "မန္တလေးတိုင်းဒေသကြီး",
+        "name_en": "Mandalay Region",
+        "flag": "mdy"
+    },
+    {
+        "name_mm": "မွန်ပြည်နယ်",
+        "name_en": "Mon State",
+        "flag": "mn"
+    },
+    {
+        "name_mm": "နေပြည်တော် ပြည်ထောင်စုနယ်မြေ",
+        "name_en": "Naypyidaw Union Territory",
+        "flag": "npt"
+    },
+    {
+        "name_mm": "ရခိုင်ပြည်နယ်",
+        "name_en": "Rakhine State",
+        "flag": "rkn"
+    },
+    {
+        "name_mm": "စစ်ကိုင်းတိုင်းဒေသကြီး",
+        "name_en": "Sagaing Region",
+        "flag": "sgng"
+    },
+    {
+        "name_mm": "ရှမ်းပြည်နယ်",
+        "name_en": "Shan State",
+        "flag": "sn"
+    },
+    {
+        "name_mm": "တနင်္သာရီတိုင်းဒေသကြီး",
+        "name_en": "Tanintharyi Region",
+        "flag": "tntyi"
+    },
+    {
+        "name_mm": "ရန်ကုန်တိုင်းဒေသကြီး",
+        "name_en": "Yangon Region",
+        "flag": "ygn"
+    }
+]

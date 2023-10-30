@@ -1,0 +1,34 @@
+{
+    "shan_selfadministers" : [
+        {
+            "name_mm" : "ဓနုကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
+            "name_en" : "Danu Self-Administered Zone",
+            "flag" : "dnu"
+        },
+        {
+            "name_mm" : "ကိုးကန့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
+            "name_en" : "Kokang Self-Administered Zone",
+            "flag" : "kokg"
+        },
+        {
+            "name_mm" : "ပလောင်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
+            "name_en" : "Pa Laung Self-Administered Zone",
+            "flag" : "plng"
+        },
+        {
+            "name_mm" : "ပအိုဝ့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
+            "name_en" : "Pa\"O Self-Administered Zone",
+            "flag" : "pao"
+        },
+        {
+            "name_mm" : "၀ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
+            "name_en" : "Wa Self-Administered Zone",
+            "flag" : "wa"
+        }
+    ],
+    "sagaing_selfadminister" : {
+        "name_mm" : "နာဂကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ",
+        "name_en" : "Naga Self-Administered Zone",
+        "flag" : "nga"
+    }
+}
