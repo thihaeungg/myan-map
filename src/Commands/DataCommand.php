@@ -11,6 +11,8 @@ class DataCommand extends Command
     protected $signature = 'myanmap:data';
     protected $description = 'That will generate datas';
 
+    //Command for data seeding
+
     public function handle()
     {
         $expectedTables = ['cities', 'states', 'selfadministers', 'townships', 'state_city', 'city_township', 'state_selfadminister'];
