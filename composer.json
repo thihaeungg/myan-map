@@ -14,7 +14,7 @@
         }
     ],
     "scripts": {
-        "install": [
+        "post-install-cmd": [
             "php artisan myanmap:data"
         ]
     },
