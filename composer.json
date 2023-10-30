@@ -13,6 +13,11 @@
             "name": "thihaeung"
         }
     ],
+    "scripts": {
+        "install": [
+            "php artisan myanmap:data"
+        ]
+    },
     "extra": {
         "laravel": {
             "providers": [

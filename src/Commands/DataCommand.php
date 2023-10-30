@@ -13,7 +13,7 @@ class DataCommand extends Command
 
     public function handle()
     {
-        $expectedTables = ['cities', 'states', 'self_administers', 'townships', 'state_city', 'city_township', 'state_selfadminister'];
+        $expectedTables = ['cities', 'states', 'selfadministers', 'townships', 'state_city', 'city_township', 'state_selfadminister'];
 
         $missingTables = array_filter($expectedTables, function ($table) {
             return !Schema::hasTable($table);
