@@ -47,7 +47,7 @@ trait DataTrait
                 "flag" => $flags[$state['flag']]
             ]);
 
-            $syncCities = $newState->cities()->createMany($cities[$state['flag']]);
+            $syncCities = $state['flag'] != 'npt' ? $newState->cities()->createMany($cities[$state['flag']]) : '';
 
             if($state['name_en'] == 'Shan State' || $state['name_en'] == 'Sagaing Region'){
                 if($state['name_en'] == 'Shan State'){
