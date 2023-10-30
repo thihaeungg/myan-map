@@ -1,6 +1,6 @@
 <?php
 
-namespace ThihaMorph\MyanMap\Seeds;
+namespace ThihaMorph\MyanMap\Trait;
 
 use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
@@ -9,9 +9,9 @@ use ThihaMorph\MyanMap\Eloquent\City;
 use ThihaMorph\MyanMap\Eloquent\State;
 use ThihaMorph\MyanMap\Eloquent\SelfAdminister;
 
-class DataSeed extends Seeder
+trait DataTrait
 {
-    public function run()
+    public function seedData()
     {
 
         $flagJson = __DIR__ . '/json/flag.json';

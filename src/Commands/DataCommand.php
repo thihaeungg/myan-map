@@ -5,9 +5,12 @@ namespace ThihaMorph\MyanMap\Commands;
 use Artisan;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
+use ThihaMorph\MyanMap\Trait\DataTrait;
 
 class DataCommand extends Command
 {
+    use DataTrait;
+
     protected $signature = 'myanmap:data';
     protected $description = 'That will generate datas';
 
@@ -25,7 +28,7 @@ class DataCommand extends Command
             $missingTablesList = implode(', ', $missingTables);
             $this->error("The following tables are missing: {$missingTablesList}");
         } else {
-            Artisan::call('db:seed', ['--class' => 'DataSeed']);
+            $this->seedData();
         }
     }
 }
