@@ -14,13 +14,13 @@ trait DataTrait
     public function seedData()
     {
 
-        $flagJson = __DIR__ . '/json/flag.json';
+        $flagJson = base_path('src/json/flag.json');
         //flag
-        $stateJson = __DIR__ . '/json/state.json';
+        $stateJson = base_path('src/json/state.json');
         //state
-        $cityJson = __DIR__ . '/json/city.json';
+        $cityJson = base_path('src/json/city.json');
         //city
-        $selfadministerJson = __DIR__ . '/json/selfadminister.json';
+        $selfadministerJson = base_path('src/json/selfadminister.json');
         //self administer
 
 
