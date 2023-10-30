@@ -17,6 +17,6 @@ class State extends Model
 
     public function self_administers()
     {
-        return $this->belongsToMany(SelfAdminister::class, 'state_selfadminister', 'selfadminister_id');
+        return $this->belongsToMany(SelfAdminister::class, 'state_selfadminister', 'state_id', 'selfadminister_id');
     }
 }
