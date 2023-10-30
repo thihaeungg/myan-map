@@ -21,8 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('states', function($table) {
-            $table->dropColumn('capital_id');
-        });
+        // Schema::table('states', function($table) {
+        //     $table->dropColumn('capital_id');
+        // });
     }
 };
