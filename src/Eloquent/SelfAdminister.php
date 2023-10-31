@@ -10,7 +10,7 @@ class SelfAdminister extends Model
 {
     protected $table = 'selfadministers';
 
-    protected $fillable = ['name_mm', 'name_en', 'flag', 'capital_id'];
+    protected $fillable = ['name_mm', 'name_en', 'flag', 'capital_id','state_id'];
 
     public function cities()
     {
