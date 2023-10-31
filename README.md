@@ -46,6 +46,43 @@ Run Command For Data Adding Into Your Database:
 
     php artisan myanmap:data
 
+* **Note** You can refresh the State,SelfAdminister,City,Township Data by this command and remember that command will be fresh these table data and will covert to default
+
+Usage:
+------------------
+
+* **Eloquent** State,SelfAdminister,City,Township. You can manage the query [Eloquent](https://laravel.com/docs/10.x/eloquent).
+
+* **State Relationship Query** cities,self_administers,capital,cities.townships,self_administers.capital. Example:
+
+    State::with(['cities', 'self_administers', 'capital'])->first();
+    State::with(['cities', 'self_administers', 'capital'])->get();
+    State::with(['cities.townships', 'self_administers.capital'])->first();
+    State::with(['cities.townships', 'self_administers.capital'])->get();
+
+* **Self Administer Relationship Query** cities,state,capital,cities.townships. Example:
+
+    SelfAdminister::with(['cities', 'state', 'capital'])->first();
+    SelfAdminister::with(['cities', 'state', 'capital'])->get();
+    SelfAdminister::with(['cities.townships'])->first();
+    SelfAdminister::with(['cities.townships'])->get();
+
+* **City Relationship Query** townships,state,self_administer, self_administer.capital, state.cities. Example:
+
+    City::with(['townships', 'self_administer', 'state'])->first();
+    City::with(['townships', 'self_administer', 'state'])->get();
+    City::with(['self_administer.capital', 'state.cities'])->first();
+    City::with(['self_administer.capital', 'state.cities'])->get();
+
+* **Township Relationship Query** city. Example:
+
+    Township::with(['city'])->first();
+    Township::with(['city'])->get();
+    Township::with(['city.state', 'city.self_administer'])->first();
+    Township::with(['city.state', 'city.self_administer'])->get();
+
+* **Relationship Command**. For the command for eloquent, you can simply use like you always use Create,Delete,Update,Status Update ( Example - Active ( true ) , Inactive ( false ));
+
 License
 =======
 
