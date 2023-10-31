@@ -32,4 +32,15 @@ class City extends Model
     {
         return $this->belongsTo(SelfAdminister::class);
     }
+
+    public function toArray()
+    {
+        $data = parent::toArray();
+
+        // Rearrange the appended attributes
+        $data['name_mm_zg'] = $data['name_mm'];
+        unset($data['name_mm']);
+
+        return $data;
+    }
 }
