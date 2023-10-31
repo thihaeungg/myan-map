@@ -59,8 +59,8 @@ trait DataTrait
             $newState->update();
             $starting_city_array = ['yangon','mandalay', 'naypyitaw'];
             foreach($syncCities as $createdCity){
-                $fixCityString = str_replace(' ', '', strtolower($city['name_en']));
-                if(in_array($createdCity->name_en, $starting_city_array)){
+                $fixCityString = str_replace(' ', '', strtolower($createdCity->name_en));
+                if(in_array($fixCityString, $starting_city_array)){
                     $syncTownship = $createdCity->townships()->createMany($townships[$fixCityString]);
                 }
             }
