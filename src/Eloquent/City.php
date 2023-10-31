@@ -11,6 +11,8 @@ class City extends Model
 
     protected $appends = ['name_mm_zg'];
 
+    public $timestamps = false;
+
     protected $fillable = ['name_mm', 'name_en', 'active', 'self_administer_id'];
 
     public function townships()
@@ -23,13 +25,13 @@ class City extends Model
         return $this->belongsToMany(State::class, 'state_city', 'city_id', 'state_id');
     }
 
-    public function getNameMmZgAttribute()
-    {
-        return Rabbit::uni2zg($this->name_mm);
-    }
-
     public function self_administer()
     {
         return $this->belongsTo(SelfAdminister::class);
+    }
+
+    public function getNameMmZgAttribute()
+    {
+        return Rabbit::uni2zg($this->name_mm);
     }
 }

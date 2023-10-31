@@ -3,10 +3,15 @@
 namespace ThihaMorph\MyanMap\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
+use ThihaMorph\MyanMap\Eloquent\Rabbit;
 
 class State extends Model
 {
     protected $table = 'states';
+
+    protected $appends = ['name_mm_zg'];
+
+    public $timestamps = false;
 
     protected $fillable = ['name_mm', 'name_en', 'flag', 'capital_id'];
 
@@ -23,5 +28,10 @@ class State extends Model
     public function capital()
     {
         return $this->belongsTo(City::class);
+    }
+
+    public function getNameMmZgAttribute()
+    {
+        return Rabbit::uni2zg($this->name_mm);
     }
 }
