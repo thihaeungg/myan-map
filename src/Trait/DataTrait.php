@@ -58,12 +58,20 @@ trait DataTrait
 
             $newState->capital_id = City::where('name_en', $state['capital'])->first()->id;
             $newState->update();
+
             $starting_city_array = ['yangon','mandalay', 'naypyitaw'];
+
             foreach($syncCities as $createdCity){
                 $fixCityString = str_replace(' ', '', strtolower($createdCity->name_en));
                 if(in_array($fixCityString, $starting_city_array)){
-                    $refix_the_array = $this->addId($townships[$fixCityString], $createdCity->id);
-                    $newTownships = Township::create($refix_the_array);
+                    foreach($townships[$fixCityString] as $township){
+                        $newTownships = Township::create([
+                            "name_en" => $township['name_en'],
+                            "name_mm" => $township['name_mm'],
+                            "postal_code" => $township['postal_code'],
+                            "city_id" => $createdCity->id,
+                        ]);
+                    }
                 }
             }
 
@@ -108,17 +116,4 @@ trait DataTrait
             }
         }
     }
-
-    private function addId($array, $city_id)
-    {
-        $resultArray = [];
-
-        foreach ($array as $item) {
-            $item['city_id'] = $city_id;
-            $resultArray[] = $item;
-        }
-
-        return $resultArray;
-    }
-
 }
