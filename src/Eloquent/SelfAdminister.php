@@ -19,7 +19,7 @@ class SelfAdminister extends Model
 
     public function state()
     {
-        return $this->belongsToMany(State::class, 'state_selfadminister','state_id', 'selfadminister_id');
+        return $this->belongsTo(State::class);
     }
 
     public function capital()

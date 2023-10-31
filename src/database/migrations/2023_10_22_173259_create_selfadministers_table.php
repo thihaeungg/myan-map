@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name_mm')->nullable();
             $table->string('name_en')->nullable();
             $table->string('flag')->nullable();
+            $table->foreignId('state_id')->nullable()->references('id')->on('states')->onDelete('cascade');
             $table->timestamps();
         });
     }

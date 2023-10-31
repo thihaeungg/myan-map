@@ -73,9 +73,8 @@ trait DataTrait
                             "name_mm" => $selfadminister['name_mm'],
                             "name_en" => $selfadminister['name_en'],
                             "flag" => $flags[$selfadminister['flag']],
+                            "state_id" => $newState->id
                         ]);
-
-                        $newState->self_administers()->attach([$newSelfAdminister->id]);
 
                         foreach($cities[$state['flag']] as $city){
                             if($city['self_administer'] == $selfadminister['flag']){
@@ -90,10 +89,9 @@ trait DataTrait
                     $newSelfAdminister = SelfAdminister::create([
                         "name_mm" => $selfadministers['sagaing_selfadminister']['name_mm'],
                         "name_en" => $selfadministers['sagaing_selfadminister']['name_en'],
-                        "flag" => $flags[$selfadministers['sagaing_selfadminister']['flag']]
+                        "flag" => $flags[$selfadministers['sagaing_selfadminister']['flag']],
+                        "state_id" => $newState->id
                     ]);
-
-                    $newState->self_administers()->attach([$newSelfAdminister->id]);
 
                     foreach($cities[$state['flag']] as $city){
                         if($city['self_administer'] == $selfadministers['sagaing_selfadminister']['flag']){
