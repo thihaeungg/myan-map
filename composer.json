@@ -30,7 +30,8 @@
         },
         "license": "MIT"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "php": "^8.1",
         "rabbit-converter/rabbit-php": "dev-master"
