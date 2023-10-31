@@ -12,7 +12,7 @@ class City extends Model
 
     public function townships()
     {
-        return $this->belongsToMany(Township::class,'city_township', 'city_id', 'township_id');
+        return $this->hasMany(Township::class, 'city_id', 'id');
     }
 
     public function state()

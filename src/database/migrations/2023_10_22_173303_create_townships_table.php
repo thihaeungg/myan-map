@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name_en')->nullable();
             $table->string('postal_code')->nullable();
             $table->boolean('active')->default(true);
+            $table->foreignId('city_id')->nullable()->references('id')->on('cities')->onDelete('cascade');
             $table->timestamps();
         });
     }

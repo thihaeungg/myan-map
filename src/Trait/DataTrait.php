@@ -7,6 +7,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use ThihaMorph\MyanMap\Eloquent\City;
 use ThihaMorph\MyanMap\Eloquent\State;
+use ThihaMorph\MyanMap\Eloquent\Township;
 use ThihaMorph\MyanMap\Eloquent\SelfAdminister;
 
 trait DataTrait
@@ -61,7 +62,8 @@ trait DataTrait
             foreach($syncCities as $createdCity){
                 $fixCityString = str_replace(' ', '', strtolower($createdCity->name_en));
                 if(in_array($fixCityString, $starting_city_array)){
-                    $syncTownship = $createdCity->townships()->createMany($townships[$fixCityString]);
+                    $refix_the_array = $this->addId($townships[$fixCityString], $createdCity->id);
+                    $newTownships = Township::create($refix_the_array);
                 }
             }
 
@@ -106,4 +108,17 @@ trait DataTrait
             }
         }
     }
+
+    private function addId($array, $city_id)
+    {
+        $resultArray = [];
+
+        foreach ($array as $item) {
+            $item['city_id'] = $city_id;
+            $resultArray[] = $item;
+        }
+
+        return $resultArray;
+    }
+
 }
