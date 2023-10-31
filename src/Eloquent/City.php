@@ -3,12 +3,13 @@
 namespace ThihaMorph\MyanMap\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
+use ThihaMorph\MyanMap\Eloquent\Rabbit;
 
 class City extends Model
 {
     protected $table = 'cities';
 
-    // protected $appends = ['name_mm_zg'];
+    protected $appends = ['name_mm_zg'];
 
     protected $fillable = ['name_mm', 'name_en', 'active', 'self_administer_id'];
 
@@ -22,10 +23,10 @@ class City extends Model
         return $this->belongsToMany(State::class, 'state_city', 'city_id', 'state_id');
     }
 
-    // public function getNameMmZgAttribute()
-    // {
-    //     return Rabbit::uni2zg($this->name_mm);
-    // }
+    public function getNameMmZgAttribute()
+    {
+        return Rabbit::uni2zg($this->name_mm);
+    }
 
     public function self_administer()
     {
