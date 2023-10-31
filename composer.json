@@ -32,6 +32,7 @@
     },
     "minimum-stability": "dev",
     "require": {
+        "php": "^8.1",
         "rabbit-converter/rabbit-php": "dev-master"
     }
 }
