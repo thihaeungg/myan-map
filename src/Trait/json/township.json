@@ -1,0 +1,228 @@
+{
+    "yangon" : [
+        {
+            "name_en" : "Ahlone",
+            "name_mm" : "အလုံ",
+            "postal_code": "11121"
+        },
+        {
+            "name_en" : "Bahan",
+            "name_mm" : "ဗဟန်း",
+            "postal_code": "11201"
+        },
+        {
+            "name_en" : "Dagon",
+            "name_mm" : "ဒဂုံ",
+            "postal_code": "11191"
+        },
+        {
+            "name_en" : "Dagon Myothit (East)",
+            "name_mm" : "ဒဂုံ မြို့သစ် အရှေ့ပိုင်း",
+            "postal_code": "11451"
+        },
+        {
+            "name_en" : "Dagon Myothit (North)",
+            "name_mm" : "ဒဂုံ မြို့သစ် မြောက်ပိုင်း",
+            "postal_code": "11421"
+        },
+        {
+            "name_en" : "Dagon Myothit (Seikkan)",
+            "name_mm" : "ဒဂုံ မြို့သစ် ဆိပ်ကမ်း",
+            "postal_code": "11441"
+        },
+        {
+            "name_en" : "Dagon Myothit (South)",
+            "name_mm" : "ဒဂုံ မြို့သစ် တောင်ပိုင်း",
+            "postal_code": "11431"
+        },
+        {
+            "name_en" : "Dala",
+            "name_mm" : "ဒလ",
+            "postal_code": "11261"
+        },
+        {
+            "name_en" : "Dawbon",
+            "name_mm" : "ဒေါပုံ",
+            "postal_code": "11241"
+        },
+        {
+            "name_en" : "Hlaing",
+            "name_mm" : "လှိုင်",
+            "postal_code": "11051"
+        },
+        {
+            "name_en" : "Hlaingtharyar",
+            "name_mm" : "လှိုင်သာယာ",
+            "postal_code": "11401"
+        },
+        {
+            "name_en" : "Insein",
+            "name_mm" : "အင်းစိန်",
+            "postal_code": "11011"
+        },
+        {
+            "name_en" : "Kamayut",
+            "name_mm" : "ကမာရွက်",
+            "postal_code": "11041"
+        },
+        {
+            "name_en" : "Kyauktada",
+            "name_mm" : "ကျောက်တံတား",
+            "postal_code": "11181"
+        },
+        {
+            "name_en" : "Kyimyindaing",
+            "name_mm" : "ကြည်မြင်တိုင်",
+            "postal_code": "11101"
+        },
+        {
+            "name_en" : "Lanmadaw",
+            "name_mm" : "လမ်းမတော်",
+            "postal_code": "11131"
+        },
+        {
+            "name_en" : "Latha",
+            "name_mm" : "လသာ",
+            "postal_code": "11141"
+        },
+        {
+            "name_en" : "Mayangone",
+            "name_mm" : "မရမ်းကုန်း",
+            "postal_code": "11061"
+        },
+        {
+            "name_en" : "Mingalardon",
+            "name_mm" : "မင်္ဂလာဒုံ",
+            "postal_code": "11021"
+        },
+        {
+            "name_en" : "Mingalar Taung Nyunt",
+            "name_mm" : "မင်္ဂလာတောင်ညွန့်",
+            "postal_code": "11221"
+        },
+        {
+            "name_en" : "North Oakkalapa",
+            "name_mm" : "မြောက်‌ဥက္ကလာပ",
+            "postal_code": "11031"
+        },
+        {
+            "name_en" : "Pabedan",
+            "name_mm" : "ပန်းဘဲတန်း",
+            "postal_code": "11141"
+        },
+        {
+            "name_en" : "Pazundaung",
+            "name_mm" : "ပုဇွန်တောင်",
+            "postal_code": "11171"
+        },
+        {
+            "name_en" : "Sanchaung",
+            "name_mm" : "စမ်းချောင်း",
+            "postal_code": "11111"
+        },
+        {
+            "name_en" : "Seikkan",
+            "name_mm" : "ဆိပ်ကမ်း",
+            "postal_code": "11181"
+        },
+        {
+            "name_en" : "Seikkyikanaungto",
+            "name_mm" : "ဆိပ်ကြီးခနောင်တို",
+            "postal_code": "11271"
+        },
+        {
+            "name_en" : "Shwepyithar",
+            "name_mm" : "ရွှေပြည်သာ",
+            "postal_code": "11411"
+        },
+        {
+            "name_en" : "South Oakkalapa",
+            "name_mm" : "တောင်ဥက္ကလာပ",
+            "postal_code": "11091"
+        },
+        {
+            "name_en" : "Thaketa",
+            "name_mm" : "သာကေတ",
+            "postal_code": "11231"
+        },
+        {
+            "name_en" : "Thingangyun",
+            "name_mm" : "သင်္ကန်းကျွန်း",
+            "postal_code": "11071"
+        },
+        {
+            "name_en" : "Yankin",
+            "name_mm" : "ရန်ကင်း",
+            "postal_code": "11081"
+        },
+        {
+            "name_en" : "Botahtaung",
+            "name_mm" : "ဗိုလ်တထောင်",
+            "postal_code": "11161"
+        }
+    ],
+    "mandalay" : [
+        {
+            "name_en" : "Aungmyethazan",
+            "name_mm" : "အောင်မြေသာစံ",
+            "postal_code": "05011"
+        },
+        {
+            "name_en" : "Amarapuya",
+            "name_mm" : "အမရပူရ",
+            "postal_code": "05061"
+        },
+        {
+            "name_en" : "Chanayethazan",
+            "name_mm" : "ချမ်းအေးသာစံ",
+            "postal_code": "05021"
+        },
+        {
+            "name_en" : "Chanmyathasi",
+            "name_mm" : "ချမ်းမြသာစီ",
+            "postal_code": "05041"
+        },
+        {
+            "name_en" : "Maharaungmyae",
+            "name_mm" : "မဟာ အောင်မြေ",
+            "postal_code": "05031"
+        },
+        {
+            "name_en" : "Patheingyi",
+            "name_mm" : "ပုသိမ်ကြီး",
+            "postal_code": "05071"
+        },
+        {
+            "name_en" : "Pyaygyidakhon",
+            "name_mm" : "ပြည်ကြီးတံခွန်",
+            "postal_code": "05051"
+        }
+    ],
+    "naypyitaw" : [
+        {
+            "name_en" : "Dekkhinathiri",
+            "name_mm" : "ဒက္ခိဏသီရိ",
+            "postal_code": "15011"
+        },
+        {
+            "name_en" : "Ottarathiri",
+            "name_mm" : "ဥတ္တရသီရိ",
+            "postal_code": "15015"
+        },
+        {
+            "name_en" : "Pobbathiri",
+            "name_mm" : "ပုဗ္ဗသီရိ",
+            "postal_code": "15014"
+        },
+        {
+            "name_en" : "Zabuthiri",
+            "name_mm" : "ဇမ္ဗူသီရိ",
+            "postal_code": "15011"
+        },
+        {
+            "name_en" : "Zeyarthiri",
+            "name_mm" : "ဇေယျာသီရိ",
+            "postal_code": "15013"
+        }
+    ]
+}

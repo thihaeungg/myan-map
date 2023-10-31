@@ -20,6 +20,8 @@ trait DataTrait
         //state
         $cityJson = __DIR__ . '/json/city.json';
         //city
+        $townshipJson = __DIR__ . '/json/township.json';
+        //city
         $selfadministerJson = __DIR__ . '/json/selfadminister.json';
         //self administer
 
@@ -30,6 +32,8 @@ trait DataTrait
 
         $getCities = file_get_contents($cityJson);
 
+        $getTownships = file_get_contents($townshipJson);
+
         $getSelfadministers = file_get_contents($selfadministerJson);
 
         $states = json_decode($getStates, true);
@@ -39,6 +43,8 @@ trait DataTrait
         $cities = json_decode($getCities, true);
 
         $flags = json_decode($getFlags, true);
+
+        $townships = json_decode($getTownships, true);
 
         foreach($states as $state){
             $newState = State::create([
@@ -51,6 +57,14 @@ trait DataTrait
 
             $newState->capital_id = City::where('name_en', $state['capital'])->first()->id;
             $newState->update();
+            $starting_city_array = ['yangon','mandalay', 'naypyitaw'];
+            foreach($syncCities as $createdCity){
+                $fixCityString = str_replace(' ', '', strtolower($city['name_en']));
+                if(in_array($createdCity->name_en, $starting_city_array)){
+                    $syncTownship = $createdCity->townships()->createMany($townships[$fixCityString]);
+                }
+            }
+
 
             if($state['name_en'] == 'Shan State' || $state['name_en'] == 'Sagaing Region'){
                 if($state['name_en'] == 'Shan State'){

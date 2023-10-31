@@ -8,7 +8,7 @@ class Township extends Model
 {
     protected $table = 'townships';
 
-    protected $fillable = ['name_mm', 'name_en'];
+    protected $fillable = ['name_mm', 'name_en', 'postal_code', 'active'];
 
     public function city()
     {

@@ -12,12 +12,12 @@ class City extends Model
 
     public function townships()
     {
-        return $this->belongsToMany(Township::class, 'city_id', 'state_id');
+        return $this->belongsToMany(Township::class,'city_township', 'city_id', 'township_id');
     }
 
     public function state()
     {
-        return $this->belongsToMany(State::class, 'state_city', 'city_id', 'state_id');
+        return $this->belongsToMany(State::class, 'state_city', 'state_id', 'city_id');
     }
 
     public function self_administer()

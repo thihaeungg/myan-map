@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name_mm')->nullable();
             $table->string('name_en')->nullable();
+            $table->string('postal_code')->nullable();
+            $table->boolean('active')->default(true);
             $table->timestamps();
         });
     }

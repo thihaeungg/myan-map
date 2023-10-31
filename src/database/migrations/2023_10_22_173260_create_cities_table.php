@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name_mm')->nullable();
             $table->string('name_en')->nullable();
             $table->boolean('active')->default(true);
+            $table->string('postal_code')->nullable();
             $table->foreignId('self_administer_id')->nullable()->references('id')->on('selfadministers')->onDelete('cascade');
             $table->timestamps();
         });
