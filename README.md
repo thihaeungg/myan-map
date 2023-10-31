@@ -37,6 +37,10 @@ Publish Tables:
 
     php artisan vendor:publish --provider="ThihaMorph\MyanMap\DatabaseServiceProvider"
  
+And
+
+    php artisan migrate
+    
 Run Command For Data Adding Into Your Database:
 ------------------
 
