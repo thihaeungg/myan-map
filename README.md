@@ -49,8 +49,8 @@ Run Command For Data Adding Into Your Database:
 ------------------
 
     php artisan myanmap:data
-    
+
 License
 =======
 
-Please refer to [LICENSE](https://github.com/GinoPane/composer-package-template/blob/master/LICENSE).
+Please refer to [LICENSE](https://github.com/thihaeungg/myan-map/blob/main/LICENSE).
