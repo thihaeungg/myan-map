@@ -3,6 +3,11 @@ Myan Map Composer Package
 
 ကိုယ်တိုယ်လဲအသုံးပြုဖို့ရည်ရွယ်တာတစ်ကြောင်းရယ် တခြားသုံးချင်တဲ့ သူ ရှိရင်လည်း သုံးရအောင် ရေးရခြင်းဖြစ်ပါတယ်
 
+15 State & Regions
+6 Self Administers
+295 Cities
+Yangon,Mandalay,Naypyitaw Townships
+
 Requirements
 ------------
 
