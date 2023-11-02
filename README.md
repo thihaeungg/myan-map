@@ -98,7 +98,7 @@ Usage:
 
     Township::with(['city.state', 'city.self_administer'])->get();
 
-* **Relationship Command**. For the command for eloquent, you can simply use like you always use Create,Delete,Update,Status Update ( Example - Active ( true ) , Inactive ( false ));
+* **Eloquent Command**. For the command for eloquent, you can simply use like you always use Create,Delete,Update,Status Update ( Example - Active ( true ) , Inactive ( false ));
 
 * **Font Conversion** Currently Default Font is Unicode but anyway you can use name_mm_zg for Zawgyi Font instead of name_mm ( Credit - Rabbit-PHP )
 
