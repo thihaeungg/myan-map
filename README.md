@@ -18,7 +18,6 @@ Features
 --------
 
 * PSR-4 autoloading compliant structure;
-* Comprehensive guide and tutorial;
 * Easy to use with Laravel Framework;
 
 Installation
@@ -26,14 +25,6 @@ Installation
 
     composer require thiha-morph/myan-map
     
-This will create a basic project structure for you:
-
-* **/src** is where your codes will live in, each class will need to reside in its own file inside this folder;
-* **.gitignore** there are certain files that we don't want to publish in Git, so we just add them to this fle for them to "get ignored by git";
-* **LICENSE** terms of how much freedom other programmers is allowed to use this library;
-* **README.md** it is a mini documentation of the library, this is usually the "home page" of your repo if you published it on GitHub and Packagist;
-* **composer.json** is where the information about your library is stored, like package name, author and dependencies;
-
 Setup & Data Seeding
 ============
 
